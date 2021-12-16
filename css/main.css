@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@900&family=Quicksand:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&family=Merriweather+Sans:wght@800&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -15,7 +15,7 @@ html {
 
 nav {
   background-color: rgba(180, 184, 178, 0.5);
-  font-family: "Quicksand", sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 1.6rem;
   padding: 2rem;
   height: 13vh; }
@@ -45,13 +45,7 @@ nav div ul li {
 
 .b-carusel {
   background-color: rgba(0, 0, 0, 0.2);
-  font-family: "Quicksand", sans-serif; }
-
-.itempro {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1rem; }
+  font-family: "Arimo", sans-serif; }
 
 .txt-foto {
   color: white;
@@ -62,11 +56,20 @@ nav div ul li {
 .m-bottom {
   margin-bottom: 2rem; }
 
+.font-title {
+  font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem; }
+
 .m-cinco {
   margin: 5rem; }
 
+.m-slides {
+  margin: 3rem; }
+
 main {
-  font-family: "Quicksand", sans-serif; }
+  font-family: "Arimo", sans-serif; }
   main div article {
     display: flex;
     justify-content: center;
@@ -83,7 +86,7 @@ main {
       animation-name: artMoov-div;
       animation-timing-function: ease-in-out;
       animation-iteration-count: 1;
-      animation-duration: 2s;
+      animation-duration: 1s;
       position: relative; }
   main div aside {
     margin: 2rem;
@@ -103,15 +106,8 @@ main {
       text-align: center;
       font-size: 1.5rem;
       font-weight: 400;
-      padding: 1rem;
-      line-height: 2rem; }
-
-.artMoovl {
-  animation-name: artMoov-div;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-duration: 2s;
-  position: relative; }
+      padding: 2rem;
+      line-height: 2.5rem; }
 
 @keyframes artMoov-div {
   from {
@@ -119,28 +115,17 @@ main {
   to {
     left: 0px; } }
 
-.artMoovr {
-  animation-name: desc-div;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-duration: 2s;
-  position: relative; }
-
-@keyframes desc-div {
-  from {
-    right: -500px; }
-  to {
-    right: 0px; } }
-
 .flex-conteiner {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  height: 70vh; }
 
 @media only screen and (max-width: 375px) {
   .flex-conteiner {
     flex-direction: column;
-    align-items: center; } }
+    align-items: center;
+    height: 40vh; } }
 
 .bg-nav {
   background-color: #9b9b9b; }
@@ -235,7 +220,7 @@ form button {
 
 footer {
   padding: 1rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Arimo", sans-serif;
   border-top: solid;
   border-width: 1px; }
   footer nav {

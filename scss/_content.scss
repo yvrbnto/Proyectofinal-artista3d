@@ -5,27 +5,32 @@
     font-family: $main-font;
 }
 
-.itempro{
-    text-align: center;
-    font-size: $fs-dos;
-    font-weight: $fw-600;
-    padding: $p-1;
-}
-
 .txt-foto{
     color: $white;
     font-size: $fs-seis;
     padding: 0.3rem;
     font-weight: $fw-600;
 }
+
 .m-bottom{
     margin-bottom: $m-2;
+}
+
+.font-title{
+    font-family: $sec-font;
+    text-align: center;
+    font-size: $fs-dos;
+    padding: $p-1;
 }
 
 //sobre el artista
 .m-cinco{
     margin: 5rem;
 }
+.m-slides{
+    margin: 3rem;
+}
+
 main{
     font-family: $main-font;
     div{
@@ -45,7 +50,7 @@ main{
                 animation-name: artMoov-div;
                 animation-timing-function: ease-in-out;
                 animation-iteration-count: 1;
-                animation-duration: 2s;
+                animation-duration: 1s;
                 position: relative;
             }
         }
@@ -69,18 +74,11 @@ main{
                 text-align: center;
                 font-size: $fs-cinco;
                 font-weight: $fw-400;
-                padding: $p-1;
-                line-height: 2rem;
+                padding: $p-2;
+                line-height: 2.5rem;
             }
         }
     }
-}
-.artMoovl{
-    animation-name: artMoov-div;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    position: relative;
 }
 
 @keyframes artMoov-div{
@@ -88,29 +86,18 @@ main{
     to{left: 0px;}
 }
 
-.artMoovr{
-    animation-name: desc-div;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-    position: relative;
-}
-
-@keyframes desc-div{
-    from{right: -500px;}
-    to{right: 0px;}
-}
-
 .flex-conteiner{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70vh;
 }
 
 @media only screen and (max-width: 375px) {
     .flex-conteiner{
         flex-direction: column;
         align-items: center;
+        height: 40vh;
     }
 }
 
