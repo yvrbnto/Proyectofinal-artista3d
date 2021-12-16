@@ -23,6 +23,11 @@
     padding: $p-1;
 }
 
+.img-size{
+    height: 100vh;
+    width: 100%;
+}
+
 //sobre el artista
 .m-cinco{
     margin: 5rem;
@@ -182,13 +187,13 @@ main{
 }
 .itemFoto{
     text-align: left;
-    font-size: 1.5rem;
+    font-size: $fs-siete;
     font-weight: 600;
     padding: 1rem;
 }
 .itemParrafo{
     text-align: left;
-    font-size: 1.3rem;
+    font-size: $fs-cinco;
     font-weight: 400;
     padding: 1rem;
     margin: 0 1rem;
