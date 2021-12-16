@@ -1,0 +1,43 @@
+nav{
+    background-color: rgba(180, 184, 178, 0.5);
+    font-family: $main-font;
+    font-size: $fs-seis;
+    padding: $p-2;
+    height: 13vh;
+    div{
+        a{
+            text-decoration: none;
+            font-size: $fs-dos;
+            font-weight: $fw-600;
+            padding: $p-1;
+            color: $black;
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+}
+nav{
+    div{
+        ul{
+            li{
+                padding: 0.7rem;
+                a{
+                    color: $black !important;
+                    font-size: $fs-siete;
+                    font-weight: $fw-600;
+                    &:hover{
+                        color: $white !important;
+                        transform: scale(1.2);
+                        cursor: pointer;
+                        transition: transform 3seg;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg-nav{
+    background-color: $grey;
+}

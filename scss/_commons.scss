@@ -1,0 +1,35 @@
+//seteo de sizing del sitio//
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+//colores//
+$grey: rgb(155, 155, 155);
+$black: rgb(0, 0, 0);
+$white: white; 
+
+//sizing//
+$m-1: 1rem;
+$m-2: 2rem;
+$p-1: 1rem;
+$p-2: 2rem;
+
+//height//
+$h-auto: auto;
+
+.m-bottom{   
+    margin-bottom: 2rem;
+}
+
+.m-serv{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+
+
+

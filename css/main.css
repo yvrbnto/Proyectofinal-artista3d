@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@900&family=Quicksand:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.m-bottom {
+  margin-bottom: 2rem; }
+
+.m-serv {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+html {
+  font-size: 62.5%; }
+
+nav {
+  background-color: rgba(180, 184, 178, 0.5);
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+  padding: 2rem;
+  height: 13vh; }
+  nav div a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: black; }
+    nav div a:hover {
+      color: white; }
+
+nav div ul li {
+  padding: 0.7rem; }
+  nav div ul li a {
+    color: black !important;
+    font-size: 1.7rem;
+    font-weight: 600; }
+    nav div ul li a:hover {
+      color: white !important;
+      transform: scale(1.2);
+      cursor: pointer;
+      transition: transform 3seg; }
+
+.bg-nav {
+  background-color: #9b9b9b; }
+
+.b-carusel {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Quicksand", sans-serif; }
+
+.itempro {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem; }
+
+.txt-foto {
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.3rem;
+  font-weight: 600; }
+
+.m-bottom {
+  margin-bottom: 2rem; }
+
+.m-cinco {
+  margin: 5rem; }
+
+main {
+  font-family: "Quicksand", sans-serif; }
+  main div article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; }
+    main div article span {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 400;
+      padding: 2rem;
+      line-height: 2rem;
+      margin-left: 5rem;
+      animation-name: artMoov-div;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+      animation-duration: 2s;
+      position: relative; }
+  main div aside {
+    margin: 2rem;
+    padding: 1rem;
+    width: 50%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 15px; }
+    main div aside h1 {
+      color: #9b9b9b;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 600;
+      padding: 1rem;
+      height: 10vh; }
+    main div aside p {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 400;
+      padding: 1rem;
+      line-height: 2rem; }
+
+.artMoovl {
+  animation-name: artMoov-div;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  position: relative; }
+
+@keyframes artMoov-div {
+  from {
+    left: -500px; }
+  to {
+    left: 0px; } }
+
+.artMoovr {
+  animation-name: desc-div;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  position: relative; }
+
+@keyframes desc-div {
+  from {
+    right: -500px; }
+  to {
+    right: 0px; } }
+
+.flex-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+@media only screen and (max-width: 375px) {
+  .flex-conteiner {
+    flex-direction: column;
+    align-items: center; } }
+
+.bg-nav {
+  background-color: #9b9b9b; }
+
+.art-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.title-tr {
+  color: #9b9b9b;
+  font-size: 1.8rem;
+  text-align: center;
+  transform: translatex(-405px); }
+
+main div {
+  margin-bottom: 2rem; }
+  main div article div div {
+    width: auto;
+    height: 20vh;
+    background-color: rgba(103, 107, 107, 0.2);
+    text-align: center; }
+    main div article div div h2 {
+      color: white;
+      font-size: 1.6rem;
+      padding: 0.3rem; }
+    main div article div div p {
+      color: black;
+      font-size: 1.3rem;
+      font-weight: 600; }
+
+main h1 {
+  font-size: 1.8rem;
+  color: #9b9b9b; }
+
+main article {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  main article p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0 1rem; }
+
+.p-dos {
+  padding: 2rem; }
+
+.serv-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.moov-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform 1s; }
+
+.itemFoto {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem; }
+
+.itemParrafo {
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 1rem;
+  margin: 0 1rem; }
+
+main section form {
+  background-color: white;
+  border: solid;
+  border-radius: 0.3rem;
+  border-width: 0,5rem;
+  padding: 2rem;
+  margin: 3rem;
+  width: 70%;
+  font-size: 1.5rem; }
+  main section form div label {
+    color: black; }
+  main section form div div {
+    color: black; }
+
+form button {
+  margin: 1rem; }
+
+footer {
+  padding: 1rem;
+  font-family: "Quicksand", sans-serif;
+  border-top: solid;
+  border-width: 1px; }
+  footer nav {
+    font-weight: 600;
+    padding: 1rem;
+    margin: 2rem;
+    padding: 2rem; }
+    footer nav div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column; }
+      footer nav div div a {
+        text-align: left;
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding: 1rem;
+        color: black; }
+        footer nav div div a:hover {
+          color: #9b9b9b; }
+      footer nav div div span {
+        color: #9b9b9b;
+        font-size: 1.6rem;
+        font-weight: 400; }
+
+.moovNav:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform 4seg; }

@@ -1,0 +1,43 @@
+footer{
+    padding: $p-1;
+    font-family: $main-font;
+    border-top: solid;
+    border-width: 1px;
+    nav{
+        font-weight: $fw-600;
+        padding: $p-1;
+        margin: $m-2;
+        padding: $p-2;
+        div{
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            flex-direction: column;
+            div{
+                a{
+                    text-align: left;
+                    font-size: $fs-ocho;
+                    font-weight: $fw-600;
+                    padding: $p-1;
+                    color: $black;
+                    &:hover{
+                        color: $grey;
+                    }
+                }
+                span{
+                    color: $grey;
+                    font-size: $fs-seis;
+                    font-weight: $fw-400;
+                }
+            }
+        }
+        
+    }
+}
+
+.moovNav:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 4seg;
+}
+

@@ -1,0 +1,238 @@
+//carrusel
+
+.b-carusel{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: $main-font;
+}
+
+.itempro{
+    text-align: center;
+    font-size: $fs-dos;
+    font-weight: $fw-600;
+    padding: $p-1;
+}
+
+.txt-foto{
+    color: $white;
+    font-size: $fs-seis;
+    padding: 0.3rem;
+    font-weight: $fw-600;
+}
+.m-bottom{
+    margin-bottom: $m-2;
+}
+
+//sobre el artista
+.m-cinco{
+    margin: 5rem;
+}
+main{
+    font-family: $main-font;
+    div{
+        article{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            span{
+                text-align: center;
+                font-size: $fs-seis;
+                font-weight: $fw-400;
+                padding: $p-2;
+                line-height: 2rem;
+                margin-left: 5rem;
+                animation-name: artMoov-div;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: 1;
+                animation-duration: 2s;
+                position: relative;
+            }
+        }
+        
+        aside{
+            margin: $m-2;
+            padding: $p-1;
+            width: 50%;
+            border: solid;
+            border-width: 2px;
+            border-radius: 15px;
+            h1{
+                color: $grey;
+                text-align: center;
+                font-size: $fs-dos;
+                font-weight: $fw-600;
+                padding: $p-1;
+                height: 10vh;
+            }
+            p{
+                text-align: center;
+                font-size: $fs-cinco;
+                font-weight: $fw-400;
+                padding: $p-1;
+                line-height: 2rem;
+            }
+        }
+    }
+}
+.artMoovl{
+    animation-name: artMoov-div;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes artMoov-div{
+    from{left: -500px;}
+    to{left: 0px;}
+}
+
+.artMoovr{
+    animation-name: desc-div;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes desc-div{
+    from{right: -500px;}
+    to{right: 0px;}
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 375px) {
+    .flex-conteiner{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+//portfolio
+
+.bg-nav{
+    background-color: $grey;
+}
+
+.art-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.title-tr{
+    color: $grey;
+    font-size: $fs-ocho;
+    text-align: center;
+    transform: translatex(-405px);
+}
+main{
+    div{
+        margin-bottom: 2rem;
+        article{
+            div{
+                div{
+                    width: auto;
+                    height: 20vh;
+                    background-color: rgba(103, 107, 107, 0.2);
+                    text-align: center;
+                    h2{
+                        color: white;
+                        font-size: $fs-seis;
+                        padding: 0.3rem;
+                    }
+                    p{
+                        color: black;
+                        font-size: $fs-tres;
+                        font-weight: $fw-600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//servicios
+
+main{
+    h1{
+        font-size: $fs-ocho;
+        color: $grey;
+    }
+    article{
+        margin-left: $m-2;
+        margin-right: $m-2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        p{
+            text-align: center;
+            font-size: $fs-cinco;
+            padding: $p-1;
+            margin: 0 1rem;
+        }
+    }
+}
+.p-dos{
+    padding: $p-2;
+}
+.serv-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.moov-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 1s;
+}
+.itemFoto{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+.itemParrafo{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+//contacto
+main{
+    section{
+        form{
+            background-color: $white;
+            border: solid;
+            border-radius: 0.3rem;
+            border-width: 0,5rem;
+            padding: 2rem;
+            margin: 3rem;
+            width: 70%;
+            font-size: 1.5rem;
+            div{
+                label{
+                    color: $black;
+                }
+                div{
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+form{
+    button{
+        margin: $m-1;
+
+    }
+}
