@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&family=Merriweather+Sans:wght@800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=Raleway:wght@400;500;600&display=swap');
 //seteo del font size del html 1em=10px//
 
 html{
     font-size: 62.5%;
 }
 
-$main-font: 'Arimo', sans-serif; 
+$main-font: 'Raleway', sans-serif;
 $sec-font: 'Merriweather Sans', sans-serif;
 
 
@@ -21,6 +20,6 @@ $fs-dos: 2rem;
 //font-weight//
 $fw-400: 400;
 $fw-600: 600;
-$fw-900: 900;
+$fw-500: 500;
 
 

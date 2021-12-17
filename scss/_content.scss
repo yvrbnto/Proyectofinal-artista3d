@@ -1,7 +1,7 @@
-//carrusel
+//index
 
 .b-carusel{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     font-family: $main-font;
 }
 
@@ -28,6 +28,11 @@
     width: 100%;
 }
 
+.div-footer{
+    max-width: 375px;
+    text-align: center;
+}
+
 //sobre el artista
 .m-cinco{
     margin: 5rem;
@@ -46,12 +51,6 @@ main{
             align-items: center;
             align-content: center;
             span{
-                text-align: center;
-                font-size: $fs-seis;
-                font-weight: $fw-400;
-                padding: $p-2;
-                line-height: 2rem;
-                margin-left: 5rem;
                 animation-name: artMoov-div;
                 animation-timing-function: ease-in-out;
                 animation-iteration-count: 1;
@@ -59,32 +58,9 @@ main{
                 position: relative;
             }
         }
-        
-        aside{
-            margin: $m-2;
-            padding: $p-1;
-            width: 50%;
-            border: solid;
-            border-width: 2px;
-            border-radius: 15px;
-            h1{
-                color: $grey;
-                text-align: center;
-                font-size: $fs-dos;
-                font-weight: $fw-600;
-                padding: $p-1;
-                height: 10vh;
-            }
-            p{
-                text-align: center;
-                font-size: $fs-cinco;
-                font-weight: $fw-400;
-                padding: $p-2;
-                line-height: 2.5rem;
-            }
-        }
     }
 }
+
 
 @keyframes artMoov-div{
     from{left: -500px;}
@@ -98,11 +74,140 @@ main{
     height: 70vh;
 }
 
-@media only screen and (max-width: 375px) {
-    .flex-conteiner{
-        flex-direction: column;
+.main-artist{
+    height: auto;
+    padding-top: $p-1;
+}
+
+.img-artist{
+	width: 60%;
+	max-width: 375px;
+    margin-top: $m-2;
+    margin-right: $m-2;
+}
+
+.span-artist{
+    margin-right: 3rem;
+    font-size: $fs-tres;
+    font-weight: $fw-400;
+    padding: $p-2;
+    line-height: 2rem;
+    margin-left: 6rem;
+}
+
+.art-artist{
+    text-align: center;
+}
+
+.title-artist{
+    color: $grey;
+	margin: 0.7rem;
+    text-align: center;
+    font-size: $fs-cinco;
+    font-weight: $fw-600;
+    height: 5vh;
+}
+
+.aside-artist{
+    width: auto;
+    margin: $m-1;
+    padding: $p-1;
+    border: solid;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.story-artist{
+    font-weight: $fw-500;
+    margin: 0 auto;
+    padding-top: $p-1;
+    text-align: center;
+    font-size: $fs-cinco;
+    line-height: 2.5rem;
+}
+
+@media only screen and (min-width: 768px){
+    .main-artist{
+        height: 60vh;
+        padding-top: $p-1;
+    }
+    
+    .div-artist{
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        height: 40vh;
+    }
+
+    .img-artist{
+        width: 100%;
+        max-width: 768px;
+        margin-right: 5.5rem;
+    }
+
+    .aside-artist{
+        width: 100%;
+        height: auto;
+    }
+
+    .story-artist{
+        line-height: 1.7;
+        font-weight: $fw-500;
+        margin: 0 auto;
+        font-size: $fs-cinco;
+    }
+
+    .title-artist{
+        color: $grey;
+        font-size: $fs-siete;
+        margin-top: $m-1;
+        text-align: center;
+        font-weight: $fw-600;
+        height: 5vh;
+    }
+
+    .span-artist{
+        margin-right: 3rem;
+        font-size: $fs-tres;
+        font-weight: $fw-400;
+        line-height: 2rem;
+        padding-top: $p-2;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .main-artist{
+        height: 90vh;
+    }
+
+    .img-artist{
+        width: 85%;
+        
+        margin-top: 5rem;
+    }
+
+    .span-artist{
+        margin-left: 3rem;
+        font-size: $fs-ocho;
+    }
+
+    .aside-artist{
+        width: 50%;
+        height: 60vh;
+        text-align: center;
+        margin-right: 7rem;
+        padding-top: 4rem;
+    }
+
+    .title-artist{
+        font-size: $fs-dos;
+        padding-top: $p-1;
+    }
+
+    .story-artist{
+        line-height: 1.7;
+        font-weight: $fw-500;
+        padding: $p-2;
+        font-size: $fs-cinco;
     }
 }
 
@@ -227,4 +332,8 @@ form{
         margin: $m-1;
 
     }
+}
+
+.contacto-size{
+    font-size: $fs-tres;
 }
