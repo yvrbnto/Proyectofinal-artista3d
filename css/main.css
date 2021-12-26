@@ -144,7 +144,8 @@ main {
   .div-artist {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    width: auto; }
   .img-artist {
     width: 100%;
     margin-right: 2rem;
@@ -174,8 +175,8 @@ main {
 @media only screen and (min-width: 1280px) {
   .img-artist {
     width: 100%;
-    padding-bottom: 2rem;
-    padding-top: 6rem; }
+    padding-top: 6rem;
+    padding-bottom: 1rem; }
   .span-artist {
     font-size: 1.8rem; }
   .aside-artist {
@@ -194,12 +195,8 @@ main {
     font-size: 1.8rem; } }
 
 @media only screen and (min-width: 1500px) {
-  .img-artist {
-    width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 1rem; }
   .aside-artist {
-    width: 70%;
+    width: 60%;
     height: auto;
     text-align: center;
     margin-right: 5rem;
@@ -215,21 +212,6 @@ main {
     font-weight: 400;
     padding-top: 3rem;
     font-size: 2rem; } }
-
-@media only screen and (min-width: 2000px) {
-  .img-artist {
-    width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 1rem; }
-  .aside-artist {
-    width: 70%;
-    height: auto;
-    text-align: center;
-    margin-right: 10rem;
-    margin-top: 2rem; }
-  .title-artist {
-    font-size: 2.5rem;
-    padding-top: 2rem; } }
 
 .bg-nav {
   background-color: #b1afaf; }

@@ -125,12 +125,13 @@ main{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: auto;
     }
 
     .img-artist{
         width: 100%;
         margin-right: 2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
     }
 
     .span-artist{
@@ -141,8 +142,6 @@ main{
     }
 
     .aside-artist{
-        width: 70%;
-        height: auto;
         padding: $p-1;
         margin-right: 4rem;
     }
@@ -167,8 +166,8 @@ main{
 @media only screen and (min-width: 1280px){
     .img-artist{
         width: 100%;
-        padding-bottom: $p-2;
         padding-top: 6rem;
+        padding-bottom: $p-1;
     }
 
     .span-artist{
@@ -176,9 +175,6 @@ main{
     }
     
     .aside-artist{
-        width: 70%;
-        height: auto;
-        text-align: center;
         margin-right: 5rem;
         margin-top: 2rem;
     }
@@ -197,14 +193,8 @@ main{
 }
 
 @media only screen and (min-width: 1500px){ 
-    .img-artist{
-        width: 100%;
-        padding-top: 4rem;
-        padding-bottom: $p-1;
-    }
-
     .aside-artist{
-        width: 70%;
+        width: 60%;
         height: auto;
         text-align: center;
         margin-right: 5rem;
@@ -229,26 +219,6 @@ main{
     }
 }
 
-@media only screen and (min-width: 2000px){
-    .img-artist{
-        width: 100%;
-        padding-top: 4rem;
-        padding-bottom: $p-1;
-    }
-    
-    .aside-artist{
-        width: 70%;
-        height: auto;
-        text-align: center;
-        margin-right: 10rem;
-        margin-top: 2rem;
-    }
-
-    .title-artist{
-        font-size: 2.5rem;
-        padding-top: $p-2;
-    }
-}
 
 //portfolio
 
@@ -261,12 +231,14 @@ main{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .title-tr{
     color: $grey;
     font-size: $fs-ocho;
     text-align: center;
     transform: translatex(-405px);
 }
+
 main{
     div{
         margin-bottom: 2rem;
@@ -315,26 +287,31 @@ main{
         }
     }
 }
+
 .p-dos{
     padding: $p-2;
 }
+
 .serv-flex{
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
+
 .moov-card:hover{
     transform: scale(1.1);
     cursor: pointer;
     transition: transform 1s;
 }
+
 .itemFoto{
     text-align: left;
     font-size: $fs-siete;
     font-weight: 600;
     padding: 1rem;
 }
+
 .itemParrafo{
     text-align: left;
     font-size: $fs-cinco;
@@ -369,7 +346,6 @@ main{
 form{
     button{
         margin: $m-1;
-
     }
 }
 
