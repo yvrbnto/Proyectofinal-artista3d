@@ -56,6 +56,9 @@ nav div ul li {
 .m-bottom {
   margin-bottom: 2rem; }
 
+.m-slides {
+  margin: 3rem; }
+
 .font-title {
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
@@ -70,14 +73,8 @@ nav div ul li {
   max-width: 375px;
   text-align: center; }
 
-.body-conteiner {
-  position: relative; }
-
 .m-cinco {
   margin: 5rem; }
-
-.m-slides {
-  margin: 3rem; }
 
 main {
   font-family: "Raleway", sans-serif; }
@@ -100,6 +97,10 @@ main {
   to {
     left: 0px; } }
 
+.body-artist {
+  position: relative;
+  padding-bottom: 15rem; }
+
 .main-artist {
   height: auto;
   padding-top: 1rem; }
@@ -107,7 +108,7 @@ main {
 .img-artist {
   width: 60%;
   max-width: 375px;
-  margin-top: 2rem; }
+  padding-top: 2rem; }
 
 .span-artist {
   margin-right: 3rem;
@@ -142,6 +143,11 @@ main {
   text-align: center;
   font-size: 1.7rem;
   line-height: 1.5; }
+
+.footer-artist {
+  bottom: 0;
+  position: absolute;
+  width: 100%; }
 
 @media only screen and (min-width: 768px) {
   .main-artist {
@@ -181,9 +187,10 @@ main {
     height: auto; }
   .img-artist {
     width: 100%;
-    padding-bottom: 2.5rem; }
+    padding-bottom: 2rem;
+    padding-top: 6rem; }
   .span-artist {
-    font-size: 2rem; }
+    font-size: 1.8rem; }
   .aside-artist {
     width: 70%;
     height: auto;
@@ -191,13 +198,13 @@ main {
     margin-right: 5rem;
     margin-top: 2rem; }
   .title-artist {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 1rem; }
   .story-artist {
     line-height: 1.8;
     font-weight: 400;
     padding-top: 2rem;
-    font-size: 2rem; } }
+    font-size: 1.8rem; } }
 
 @media only screen and (min-width: 1500px) {
   .main-artist {
@@ -213,16 +220,16 @@ main {
     margin-right: 5rem;
     padding-top: 2rem; }
   .title-artist {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-top: 1rem; }
   .span-artist {
     margin-right: 3rem;
-    font-size: 2.3rem; }
+    font-size: 2rem; }
   .story-artist {
     line-height: 2;
     font-weight: 400;
     padding-top: 3rem;
-    font-size: 2.3rem; } }
+    font-size: 2rem; } }
 
 @media only screen and (min-width: 2000px) {
   .img-artist {

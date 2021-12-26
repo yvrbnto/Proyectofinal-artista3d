@@ -16,6 +16,10 @@
     margin-bottom: $m-2;
 }
 
+.m-slides{
+    margin: 3rem;
+}
+
 .font-title{
     font-family: $sec-font;
     text-align: center;
@@ -35,15 +39,8 @@
 
 //sobre el artista
 
-.body-conteiner{
-    position: relative;
-}
-
 .m-cinco{
     margin: 5rem;
-}
-.m-slides{
-    margin: 3rem;
 }
 
 main{
@@ -72,6 +69,11 @@ main{
     to{left: 0px;}
 }
 
+.body-artist{
+    position: relative;
+    padding-bottom: 15rem;
+}
+
 .main-artist{
     height: auto;
     padding-top: $p-1;
@@ -80,7 +82,7 @@ main{
 .img-artist{
 	width: 60%;
 	max-width: 375px;
-    margin-top: $m-2;
+    padding-top: $m-2;
 }
 
 .span-artist{
@@ -121,6 +123,12 @@ main{
     text-align: center;
     font-size: $fs-siete;
     line-height: 1.5;
+}
+
+.footer-artist{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px){
@@ -178,11 +186,12 @@ main{
 
     .img-artist{
         width: 100%;
-        padding-bottom: 2.5rem;
+        padding-bottom: $p-2;
+        padding-top: 6rem;
     }
 
     .span-artist{
-        font-size: $fs-dos;
+        font-size: $fs-ocho;
     }
     
     .aside-artist{
@@ -194,7 +203,7 @@ main{
     }
 
     .title-artist{
-        font-size: 2.5rem;
+        font-size: $fs-dos;
         padding-top: $p-1;
     }
 
@@ -202,7 +211,7 @@ main{
         line-height: 1.8;
         font-weight: $fw-400;
         padding-top: $p-2;
-        font-size: $fs-dos;
+        font-size: $fs-ocho;
     }
 }
 
@@ -226,20 +235,20 @@ main{
     }
 
     .title-artist{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding-top: $p-1;
     }
 
     .span-artist{
         margin-right: 3rem;
-        font-size: 2.3rem;
+        font-size: $fs-dos;
     }
 
     .story-artist{
         line-height: 2;
         font-weight: $fw-400;
         padding-top: 3rem;
-        font-size: 2.3rem;
+        font-size: $fs-dos;
     }
 }
 
