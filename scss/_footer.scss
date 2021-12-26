@@ -1,9 +1,10 @@
 footer{
+    width: 100%;
     padding: $p-1;
     font-family: $main-font;
     border-top: solid;
     border-width: 1px;
-    position: sticky;
+    position: absolute;
     nav{
         font-weight: $fw-600;
         padding: $p-1;

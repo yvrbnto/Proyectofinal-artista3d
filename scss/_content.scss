@@ -34,6 +34,11 @@
 }
 
 //sobre el artista
+
+.body-conteiner{
+    position: relative;
+}
+
 .m-cinco{
     margin: 5rem;
 }
@@ -76,15 +81,14 @@ main{
 	width: 60%;
 	max-width: 375px;
     margin-top: $m-2;
-    
 }
 
 .span-artist{
     margin-right: 3rem;
     font-size: $fs-siete;
     font-weight: $fw-400;
-    padding: $p-2;
     line-height: 2rem;
+    padding: $p-2;
     margin-left: 6rem;
 }
 
@@ -98,7 +102,7 @@ main{
     text-align: center;
     font-size: $fs-dos;
     font-weight: $fw-600;
-    height: 3vh;
+    
 }
 
 .aside-artist{
@@ -174,20 +178,18 @@ main{
 
     .img-artist{
         width: 100%;
-        padding-top: 4rem;
-        padding-bottom: $p-1;
+        padding-bottom: 2.5rem;
     }
 
     .span-artist{
-        margin-right: 4rem;
         font-size: $fs-dos;
     }
     
     .aside-artist{
-        width: 50%;
+        width: 70%;
         height: auto;
         text-align: center;
-        margin-right: 6rem;
+        margin-right: 5rem;
         margin-top: 2rem;
     }
 
@@ -209,12 +211,18 @@ main{
         height: auto;
     }
     
+    .img-artist{
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: $p-1;
+    }
+
     .aside-artist{
-        width: 80%;
+        width: 70%;
         height: auto;
         text-align: center;
-        margin-right: 6rem;
-        margin-top: 2rem;
+        margin-right: 5rem;
+        padding-top: 2rem;
     }
 
     .title-artist{
@@ -235,30 +243,33 @@ main{
     }
 }
 
-@media only screen and (min-width: 2000px){ 
+@media only screen and (min-width: 2000px){
+    .img-artist{
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: $p-1;
+    }
+    
     .aside-artist{
-        width: 60%;
-        height: auto;
+        width: 80%;
+        height: 80vh;
         text-align: center;
-        margin-right: 6rem;
+        margin-right: 10rem;
         margin-top: 2rem;
     }
 
     .title-artist{
         font-size: 3rem;
-        padding-top: $p-1;
-    }
-
-    .span-artist{
-        margin-right: 4rem;
-        font-size: 2.3rem;
+        padding-top: $p-2;
     }
 
     .story-artist{
+        width: 100%;
         line-height: 2;
         font-weight: $fw-400;
-        padding-top: 3rem;
-        font-size: 2.3rem;
+        padding-top: 8rem;
+        font-size: 2.5rem;
+        text-align: center;
     }
 }
 

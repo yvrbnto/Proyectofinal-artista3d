@@ -70,6 +70,9 @@ nav div ul li {
   max-width: 375px;
   text-align: center; }
 
+.body-conteiner {
+  position: relative; }
+
 .m-cinco {
   margin: 5rem; }
 
@@ -110,8 +113,8 @@ main {
   margin-right: 3rem;
   font-size: 1.7rem;
   font-weight: 400;
-  padding: 2rem;
   line-height: 2rem;
+  padding: 2rem;
   margin-left: 6rem; }
 
 .art-artist {
@@ -122,8 +125,7 @@ main {
   margin: 0.7rem;
   text-align: center;
   font-size: 2rem;
-  font-weight: 600;
-  height: 3vh; }
+  font-weight: 600; }
 
 .aside-artist {
   width: auto;
@@ -179,16 +181,14 @@ main {
     height: auto; }
   .img-artist {
     width: 100%;
-    padding-top: 4rem;
-    padding-bottom: 1rem; }
+    padding-bottom: 2.5rem; }
   .span-artist {
-    margin-right: 4rem;
     font-size: 2rem; }
   .aside-artist {
-    width: 50%;
+    width: 70%;
     height: auto;
     text-align: center;
-    margin-right: 6rem;
+    margin-right: 5rem;
     margin-top: 2rem; }
   .title-artist {
     font-size: 2.5rem;
@@ -202,12 +202,16 @@ main {
 @media only screen and (min-width: 1500px) {
   .main-artist {
     height: auto; }
+  .img-artist {
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 1rem; }
   .aside-artist {
-    width: 80%;
+    width: 70%;
     height: auto;
     text-align: center;
-    margin-right: 6rem;
-    margin-top: 2rem; }
+    margin-right: 5rem;
+    padding-top: 2rem; }
   .title-artist {
     font-size: 3rem;
     padding-top: 1rem; }
@@ -221,23 +225,26 @@ main {
     font-size: 2.3rem; } }
 
 @media only screen and (min-width: 2000px) {
+  .img-artist {
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 1rem; }
   .aside-artist {
-    width: 60%;
-    height: auto;
+    width: 80%;
+    height: 80vh;
     text-align: center;
-    margin-right: 6rem;
+    margin-right: 10rem;
     margin-top: 2rem; }
   .title-artist {
     font-size: 3rem;
-    padding-top: 1rem; }
-  .span-artist {
-    margin-right: 4rem;
-    font-size: 2.3rem; }
+    padding-top: 2rem; }
   .story-artist {
+    width: 100%;
     line-height: 2;
     font-weight: 400;
-    padding-top: 3rem;
-    font-size: 2.3rem; } }
+    padding-top: 8rem;
+    font-size: 2.5rem;
+    text-align: center; } }
 
 .bg-nav {
   background-color: #b1afaf; }
@@ -334,11 +341,12 @@ form button {
   font-size: 1.3rem; }
 
 footer {
+  width: 100%;
   padding: 1rem;
   font-family: "Raleway", sans-serif;
   border-top: solid;
   border-width: 1px;
-  position: sticky; }
+  position: absolute; }
   footer nav {
     font-weight: 600;
     padding: 1rem;
