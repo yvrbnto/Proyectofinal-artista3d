@@ -110,6 +110,7 @@ main{
 
 .aside-artist{
     width: auto;
+    height: auto;
     margin: $m-1;
     padding: $p-1;
     border: solid;
@@ -128,7 +129,7 @@ main{
 
 @media only screen and (min-width: 768px){
     .main-artist{
-        height: 60vh;
+        height: auto;
         padding-top: $p-1;
     }
     
@@ -139,8 +140,7 @@ main{
     }
 
     .img-artist{
-        width: 100%;
-        max-width: 768px;
+        width: 80%;
         margin-right: 5.5rem;
     }
 
@@ -166,7 +166,7 @@ main{
     }
 
     .span-artist{
-        margin-right: 3rem;
+        margin-right: 6rem;
         font-size: $fs-tres;
         font-weight: $fw-400;
         line-height: 2rem;
@@ -176,23 +176,22 @@ main{
 
 @media only screen and (min-width: 1280px){
     .main-artist{
-        height: 90vh;
+        height: auto;
     }
 
     .img-artist{
-        width: 85%;
-        
+        width: 100%;
         margin-top: 5rem;
     }
 
     .span-artist{
-        margin-left: 3rem;
+        margin-right: 5rem;
         font-size: $fs-ocho;
     }
 
     .aside-artist{
         width: 50%;
-        height: 60vh;
+        height: auto;
         text-align: center;
         margin-right: 7rem;
         padding-top: 4rem;
