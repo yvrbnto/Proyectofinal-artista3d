@@ -100,8 +100,7 @@ main {
 .flex-conteiner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 70vh; }
+  align-items: center; }
 
 .main-artist {
   height: auto;
@@ -184,7 +183,7 @@ main {
 
 @media only screen and (min-width: 1280px) {
   .main-artist {
-    height: auto; }
+    height: 80vh; }
   .img-artist {
     width: 100%;
     margin-top: 5rem; }
@@ -304,7 +303,8 @@ footer {
   padding: 1rem;
   font-family: "Raleway", sans-serif;
   border-top: solid;
-  border-width: 1px; }
+  border-width: 1px;
+  position: sticky; }
   footer nav {
     font-weight: 600;
     padding: 1rem;

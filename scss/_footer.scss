@@ -3,6 +3,7 @@ footer{
     font-family: $main-font;
     border-top: solid;
     border-width: 1px;
+    position: sticky;
     nav{
         font-weight: $fw-600;
         padding: $p-1;

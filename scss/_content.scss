@@ -71,7 +71,6 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70vh;
 }
 
 .main-artist{
@@ -176,7 +175,7 @@ main{
 
 @media only screen and (min-width: 1280px){
     .main-artist{
-        height: auto;
+        height: 80vh;
     }
 
     .img-artist{
