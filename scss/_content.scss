@@ -75,7 +75,7 @@ main{
 }
 
 .main-artist{
-    height: auto;
+    height: 100vh;
     padding-top: $p-1;
 }
 
@@ -132,14 +132,11 @@ main{
 }
 
 @media only screen and (min-width: 768px){
-    .main-artist{
-        height: auto;
-    }
-    
     .div-artist{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 8rem;
     }
 
     .img-artist{
@@ -180,10 +177,6 @@ main{
 }
 
 @media only screen and (min-width: 1280px){
-    .main-artist{
-        height: auto;
-    }
-
     .img-artist{
         width: 100%;
         padding-bottom: $p-2;
@@ -216,10 +209,6 @@ main{
 }
 
 @media only screen and (min-width: 1500px){ 
-    .main-artist{
-        height: auto;
-    }
-    
     .img-artist{
         width: 100%;
         padding-top: 4rem;
@@ -274,17 +263,8 @@ main{
     }
 
     .title-artist{
-        font-size: 3rem;
-        padding-top: $p-2;
-    }
-
-    .story-artist{
-        width: 100%;
-        line-height: 2;
-        font-weight: $fw-400;
-        padding-top: 8rem;
         font-size: 2.5rem;
-        text-align: center;
+        padding-top: $p-2;
     }
 
     .footer-artist{

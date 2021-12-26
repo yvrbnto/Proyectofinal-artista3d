@@ -102,7 +102,7 @@ main {
   padding-bottom: 15rem; }
 
 .main-artist {
-  height: auto;
+  height: 100vh;
   padding-top: 1rem; }
 
 .img-artist {
@@ -150,12 +150,11 @@ main {
   width: 100%; }
 
 @media only screen and (min-width: 768px) {
-  .main-artist {
-    height: auto; }
   .div-artist {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    padding-top: 8rem; }
   .img-artist {
     width: 100%;
     margin-right: 2rem;
@@ -183,8 +182,6 @@ main {
     height: 3vh; } }
 
 @media only screen and (min-width: 1280px) {
-  .main-artist {
-    height: auto; }
   .img-artist {
     width: 100%;
     padding-bottom: 2rem;
@@ -207,8 +204,6 @@ main {
     font-size: 1.8rem; } }
 
 @media only screen and (min-width: 1500px) {
-  .main-artist {
-    height: auto; }
   .img-artist {
     width: 100%;
     padding-top: 4rem;
@@ -229,7 +224,11 @@ main {
     line-height: 2;
     font-weight: 400;
     padding-top: 3rem;
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .footer-artist {
+    bottom: 0;
+    position: absolute;
+    width: 100%; } }
 
 @media only screen and (min-width: 2000px) {
   .img-artist {
@@ -243,15 +242,12 @@ main {
     margin-right: 10rem;
     margin-top: 2rem; }
   .title-artist {
-    font-size: 3rem;
-    padding-top: 2rem; }
-  .story-artist {
-    width: 100%;
-    line-height: 2;
-    font-weight: 400;
-    padding-top: 8rem;
     font-size: 2.5rem;
-    text-align: center; } }
+    padding-top: 2rem; }
+  .footer-artist {
+    bottom: 0;
+    position: absolute;
+    width: 100%; } }
 
 .bg-nav {
   background-color: #b1afaf; }
@@ -348,12 +344,10 @@ form button {
   font-size: 1.3rem; }
 
 footer {
-  width: 100%;
   padding: 1rem;
   font-family: "Raleway", sans-serif;
   border-top: solid;
-  border-width: 1px;
-  position: absolute; }
+  border-width: 1px; }
   footer nav {
     font-weight: 600;
     padding: 1rem;
