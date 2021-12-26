@@ -63,21 +63,11 @@ main{
     }
 }
 
-
 @keyframes artMoov-div{
     from{left: -500px;}
     to{left: 0px;}
 }
 
-.body-artist{
-    position: relative;
-    padding-bottom: 15rem;
-}
-
-.main-artist{
-    height: 100vh;
-    padding-top: $p-1;
-}
 
 .img-artist{
 	width: 60%;
@@ -127,7 +117,6 @@ main{
 
 .footer-artist{
     bottom: 0;
-    position: absolute;
     width: 100%;
 }
 
@@ -136,7 +125,6 @@ main{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 8rem;
     }
 
     .img-artist{
@@ -239,12 +227,6 @@ main{
         padding-top: 3rem;
         font-size: $fs-dos;
     }
-
-    .footer-artist{
-        bottom: 0;
-        position: absolute;
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width: 2000px){
@@ -255,8 +237,8 @@ main{
     }
     
     .aside-artist{
-        width: 80%;
-        height: 80vh;
+        width: 70%;
+        height: auto;
         text-align: center;
         margin-right: 10rem;
         margin-top: 2rem;
@@ -265,12 +247,6 @@ main{
     .title-artist{
         font-size: 2.5rem;
         padding-top: $p-2;
-    }
-
-    .footer-artist{
-        bottom: 0;
-        position: absolute;
-        width: 100%;
     }
 }
 
