@@ -6,7 +6,7 @@ nav{
     height: 13vh;
     div{
         a{
-            text-decoration: none;
+            text-decoration: none !important;
             font-size: $fs-dos;
             font-weight: $fw-600;
             padding: $p-1;
@@ -26,6 +26,7 @@ nav{
                     color: $black !important;
                     font-size: $fs-siete;
                     font-weight: $fw-600;
+                    text-decoration: none;
                     &:hover{
                         color: $white !important;
                         transform: scale(1.2);

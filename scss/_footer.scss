@@ -17,6 +17,7 @@ footer{
             div{
                 a{
                     text-align: left;
+                    text-decoration: none;
                     font-size: $fs-ocho;
                     font-weight: $fw-600;
                     padding: $p-1;
@@ -45,3 +46,4 @@ footer{
 .bg-footer{
     background-color: #fff;
 }
+
