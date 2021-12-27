@@ -345,4 +345,5 @@ footer {
 
 .footer-size {
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  transform: translatey(-300px); }
