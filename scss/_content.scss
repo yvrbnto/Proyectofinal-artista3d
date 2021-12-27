@@ -126,12 +126,6 @@ main{
 }
 
 @media only screen and (min-width: 768px){
-    .body-artist{
-        position: relative;
-        padding-bottom: 20rem;
-        min-height: 100vh;
-    }
-
     .div-artist{
         display: flex;
         justify-content: space-between;
@@ -177,12 +171,6 @@ main{
 }
 
 @media only screen and (min-width: 1280px){
-    .body-artist{
-        position: relative;
-        padding-bottom: 15rem;
-        min-height: 100vh;
-    }
-
     .img-artist{
         width: 100%;
         margin-top: 5rem;
