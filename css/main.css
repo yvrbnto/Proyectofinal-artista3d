@@ -95,6 +95,16 @@ main {
   to {
     left: 0px; } }
 
+.body-artist {
+  position: relative;
+  padding-bottom: 30rem;
+  min-height: 100vh; }
+
+.foot-artist {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
 .box-shadow {
   box-shadow: 3px 3px 10px; }
 
@@ -137,16 +147,16 @@ main {
   font-size: 1.7rem;
   line-height: 1.5; }
 
-.footer-artist {
-  bottom: 0;
-  width: 100%; }
-
 @media only screen and (min-width: 768px) {
+  .body-artist {
+    position: relative;
+    padding-bottom: 20rem;
+    min-height: 100vh; }
   .div-artist {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto; }
+    width: 100%; }
   .img-artist {
     width: 100%;
     margin-left: 4rem;
@@ -160,7 +170,7 @@ main {
     width: 100%;
     padding: 1rem;
     margin-right: 4rem;
-    margin-top: 3rem; }
+    margin-top: 5rem; }
   .story-artist {
     line-height: 1.5;
     font-weight: 400;
@@ -174,6 +184,10 @@ main {
     height: 3vh; } }
 
 @media only screen and (min-width: 1280px) {
+  .body-artist {
+    position: relative;
+    padding-bottom: 15rem;
+    min-height: 100vh; }
   .img-artist {
     width: 100%;
     margin-top: 5rem;
@@ -342,8 +356,3 @@ footer {
 
 .bg-footer {
   background-color: #fff; }
-
-.footer-size {
-  position: absolute;
-  width: 100%;
-  transform: translatey(-300px); }

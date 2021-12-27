@@ -64,6 +64,18 @@ main{
     to{left: 0px;}
 }
 
+.body-artist{
+    position: relative;
+    padding-bottom: 30rem;
+    min-height: 100vh;
+}
+
+.foot-artist{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .box-shadow{
     box-shadow: 3px 3px 10px;
 }
@@ -93,7 +105,6 @@ main{
     text-align: center;
     font-size: $fs-dos;
     font-weight: $fw-600;
-    
 }
 
 .aside-artist{
@@ -114,17 +125,18 @@ main{
     line-height: 1.5;
 }
 
-.footer-artist{
-    bottom: 0;
-    width: 100%;
-}
-
 @media only screen and (min-width: 768px){
+    .body-artist{
+        position: relative;
+        padding-bottom: 20rem;
+        min-height: 100vh;
+    }
+
     .div-artist{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: auto;
+        width: 100%;
     }
 
     .img-artist{
@@ -144,7 +156,7 @@ main{
         width: 100%;
         padding: $p-1;
         margin-right: 4rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
 
     .story-artist{
@@ -165,6 +177,12 @@ main{
 }
 
 @media only screen and (min-width: 1280px){
+    .body-artist{
+        position: relative;
+        padding-bottom: 15rem;
+        min-height: 100vh;
+    }
+
     .img-artist{
         width: 100%;
         margin-top: 5rem;
@@ -193,7 +211,7 @@ main{
     }
 }
 
-@media only screen and (min-width: 1500px){ 
+@media only screen and (min-width: 1500px){
     .aside-artist{
         width: 100%;
         height: auto;
@@ -219,6 +237,7 @@ main{
         font-size: $fs-dos;
     }
 }
+
 
 
 //portfolio
