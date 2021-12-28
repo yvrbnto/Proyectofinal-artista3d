@@ -19,14 +19,6 @@ nav {
   font-size: 1.6rem;
   padding: 2rem;
   height: 13vh; }
-  nav div a {
-    text-decoration: none !important;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 1rem;
-    color: black; }
-    nav div a:hover {
-      color: white; }
 
 nav div ul li {
   padding: 0.7rem; }
@@ -44,10 +36,24 @@ nav div ul li {
 .bg-nav {
   background-color: #b1afaf; }
 
+.icon-nav {
+  text-decoration: none !important;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem;
+  color: black; }
+
+.icon-nav:hover {
+  color: white; }
+
 .b-carusel {
   background-color: rgba(56, 56, 56, 0.3);
   font-family: "Raleway", sans-serif;
   color: #111; }
+
+.m-index {
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .txt-foto {
   color: white;
@@ -61,18 +67,20 @@ nav div ul li {
 .m-slides {
   margin: 3rem; }
 
+.m-top {
+  margin-top: 10rem; }
+
 .font-title {
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
   font-size: 2rem;
   padding: 1rem; }
 
-.img-size {
-  height: 100vh;
-  width: 100%; }
-
 .m-cinco {
   margin: 5rem; }
+
+.mtop-artist {
+  margin-top: 5rem; }
 
 main {
   font-family: "Raleway", sans-serif; }
@@ -146,6 +154,9 @@ main {
   text-align: center;
   font-size: 1.7rem;
   line-height: 1.5; }
+
+.mtop-portfolio {
+  margin-top: 5rem; }
 
 .bg-nav {
   background-color: #b1afaf; }
@@ -241,6 +252,49 @@ form button {
 .contacto-size {
   font-size: 1.3rem; }
 
+.error-container > span:nth-of-type(1) {
+  color: #D1F2A5;
+  animation: colordancing 4s infinite; }
+
+.error-container > span:nth-of-type(3) {
+  color: #F56991;
+  animation: colordancing2 4s infinite; }
+
+.error-container > span:nth-of-type(2) {
+  width: 120px;
+  height: 120px;
+  border-radius: 999px; }
+
+.error-container > span:nth-of-type(2):before,
+.error-container > span:nth-of-type(2):after {
+  border-radius: 0%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 999px;
+  box-shadow: inset 30px 0 0 rgba(209, 242, 165, 0.4), inset 0 30px 0 rgba(239, 250, 180, 0.4), inset -30px 0 0 rgba(255, 196, 140, 0.4), inset 0 -30px 0 rgba(245, 105, 145, 0.4);
+  animation: shadowsdancing 4s infinite; }
+
+.error-container > span:nth-of-type(2):before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+@keyframes colordancing {
+  0% {
+    color: #D1F2A5; }
+  25% {
+    color: #F56991; }
+  50% {
+    color: #FFC48C; }
+  75% {
+    color: #EFFAB4; }
+  100% {
+    color: #D1F2A5; } }
+
 footer {
   padding: 1rem;
   font-family: "Raleway", sans-serif;
@@ -279,7 +333,30 @@ footer {
 .bg-footer {
   background-color: #fff; }
 
+@media only screen and (min-width: 370px) {
+  .icon-nav {
+    font-size: 1.5rem; }
+  .m-index {
+    margin-top: 12rem;
+    margin-bottom: 3rem; }
+  .mtop-artist {
+    margin-top: 12rem; }
+  .mtop-portfolio {
+    margin-top: 8rem; }
+  .m-top {
+    margin-top: 13rem; }
+  .txt-foto {
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    font-weight: 400; } }
+
 @media only screen and (min-width: 768px) {
+  .icon-nav {
+    font-size: 1.7rem; }
+  .m-index {
+    margin-top: 12rem;
+    margin-bottom: 5rem; }
   .div-artist {
     display: flex;
     justify-content: space-between;
@@ -289,7 +366,7 @@ footer {
     width: 100%;
     margin-left: 4rem;
     padding-bottom: 1rem;
-    margin-top: 3rem; }
+    margin-top: 10rem; }
   .span-artist {
     font-size: 1.8rem;
     font-weight: 400;
@@ -298,7 +375,7 @@ footer {
     width: 100%;
     padding: 1rem;
     margin-right: 4rem;
-    margin-top: 5rem; }
+    margin-top: 10rem; }
   .story-artist {
     line-height: 1.5;
     font-weight: 400;
@@ -312,15 +389,21 @@ footer {
     height: 3vh; } }
 
 @media only screen and (min-width: 1280px) {
+  .icon-nav {
+    font-size: 1.8rem; }
+  .m-index {
+    margin-top: 0;
+    margin-bottom: 0; }
   .img-artist {
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 13rem;
     padding-bottom: 1rem; }
   .span-artist {
     font-size: 1.8rem; }
   .aside-artist {
     width: 100%;
-    margin-right: 5rem; }
+    margin-right: 5rem;
+    margin-top: 13rem; }
   .title-artist {
     font-size: 2rem;
     padding-top: 1rem; }
@@ -331,20 +414,26 @@ footer {
     font-size: 1.8rem; } }
 
 @media only screen and (min-width: 1500px) {
-  .aside-artist {
+  .icon-nav {
+    font-size: 2rem; }
+  .img-artist {
     width: 100%;
+    margin-top: 15rem;
+    padding-bottom: 1rem; }
+  .aside-artist {
+    width: 80%;
     height: auto;
     text-align: center;
     margin-right: 5rem;
-    padding-top: 2rem; }
+    margin-top: 15rem; }
   .title-artist {
     font-size: 2.5rem;
     padding-top: 1rem; }
   .span-artist {
     margin-right: 3rem;
-    font-size: 2rem; }
+    font-size: 1.8rem; }
   .story-artist {
     line-height: 2;
     font-weight: 400;
     padding-top: 3rem;
-    font-size: 2rem; } }
+    font-size: 1.8rem; } }

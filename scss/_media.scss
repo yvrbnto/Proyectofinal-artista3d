@@ -1,4 +1,43 @@
+@media only screen and (min-width: 370px){
+    .icon-nav{
+        font-size: $fs-cinco;
+    }
+
+    .m-index{
+        margin-top: 12rem;
+        margin-bottom: 3rem;
+    }
+
+    .mtop-artist{
+        margin-top: 12rem;
+    }
+
+    .mtop-portfolio{
+        margin-top: 8rem;
+    }
+
+    .m-top{
+        margin-top: 13rem;
+    }
+
+    .txt-foto{
+        color: $white;
+        font-size: $fs-tres;
+        padding: 0.3rem;
+        font-weight: $fw-400;
+    }
+}
+
 @media only screen and (min-width: 768px){
+    .icon-nav{
+        font-size: $fs-siete;
+    }
+
+    .m-index{
+        margin-top: 12rem;
+        margin-bottom: 5rem;
+    }
+
     .div-artist{
         display: flex;
         justify-content: space-between;
@@ -10,7 +49,7 @@
         width: 100%;
         margin-left: 4rem;
         padding-bottom: 1rem;
-        margin-top: 3rem;
+        margin-top: 10rem;
     }
 
     .span-artist{
@@ -23,7 +62,7 @@
         width: 100%;
         padding: $p-1;
         margin-right: 4rem;
-        margin-top: 5rem;
+        margin-top: 10rem;
     }
 
     .story-artist{
@@ -41,12 +80,28 @@
         height: 3vh;
     }
 
+    .txt-foto{
+        color: $white;
+        font-size: $fs-cinco;
+        padding: 0.3rem;
+        font-weight: $fw-400;
+    }
+
 }
 
 @media only screen and (min-width: 1280px){
+    .icon-nav{
+        font-size: $fs-ocho;
+    }
+    
+    .m-index{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     .img-artist{
         width: 100%;
-        margin-top: 5rem;
+        margin-top: 13rem;
         padding-bottom: $p-1;
     }
 
@@ -57,6 +112,7 @@
     .aside-artist{
         width: 100%;
         margin-right: 5rem;
+        margin-top: 13rem;
     }
 
     .title-artist{
@@ -73,12 +129,22 @@
 }
 
 @media only screen and (min-width: 1500px){
-    .aside-artist{
+    .icon-nav{
+        font-size: $fs-dos;
+    }
+    
+    .img-artist{
         width: 100%;
+        margin-top: 15rem;
+        padding-bottom: $p-1;
+    }
+
+    .aside-artist{
+        width: 80%;
         height: auto;
         text-align: center;
         margin-right: 5rem;
-        padding-top: 2rem;
+        margin-top: 15rem;
     }
 
     .title-artist{
@@ -88,13 +154,20 @@
 
     .span-artist{
         margin-right: 3rem;
-        font-size: $fs-dos;
+        font-size: $fs-ocho;
     }
 
     .story-artist{
         line-height: 2;
         font-weight: $fw-400;
         padding-top: 3rem;
-        font-size: $fs-dos;
+        font-size: $fs-ocho;
+    }
+
+    .txt-foto{
+        color: $white;
+        font-size: $fs-siete;
+        padding: 0.3rem;
+        font-weight: $fw-400;
     }
 }

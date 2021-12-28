@@ -4,18 +4,6 @@ nav{
     font-size: $fs-seis;
     padding: $p-2;
     height: 13vh;
-    div{
-        a{
-            text-decoration: none !important;
-            font-size: $fs-dos;
-            font-weight: $fw-600;
-            padding: $p-1;
-            color: $black;
-            &:hover{
-                color: $white;
-            }
-        }
-    }
 }
 nav{
     div{
@@ -41,4 +29,15 @@ nav{
 
 .bg-nav{
     background-color: $grey;
+}
+
+.icon-nav{
+    text-decoration: none !important;
+    font-size: $fs-dos;
+    font-weight: $fw-600;
+    padding: $p-1;
+    color: $black;
+}
+.icon-nav:hover{
+    color: $white;
 }
