@@ -14,7 +14,6 @@ html {
   font-size: 62.5%; }
 
 nav {
-  background-color: rgba(180, 184, 178, 0.5);
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   padding: 2rem;
@@ -76,12 +75,6 @@ nav div ul li {
   font-size: 2rem;
   padding: 1rem; }
 
-.m-cinco {
-  margin: 5rem; }
-
-.mtop-artist {
-  margin-top: 5rem; }
-
 main {
   font-family: "Raleway", sans-serif; }
   main div article {
@@ -102,6 +95,12 @@ main {
     left: -500px; }
   to {
     left: 0px; } }
+
+.m-cinco {
+  margin: 5rem; }
+
+.mtop-artist {
+  margin-top: 5rem; }
 
 .body-artist {
   position: relative;
@@ -155,6 +154,25 @@ main {
   font-size: 1.7rem;
   line-height: 1.5; }
 
+main div {
+  margin-bottom: 2rem; }
+  main div article div div {
+    width: auto;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center; }
+    main div article div div h2 {
+      color: white;
+      font-size: 1.6rem;
+      padding: 0.3rem; }
+    main div article div div p {
+      color: black;
+      font-size: 1.3rem;
+      font-weight: 600; }
+
+.body-over {
+  overflow-x: hidden; }
+
 .mtop-portfolio {
   margin-top: 5rem; }
 
@@ -172,22 +190,6 @@ main {
   text-align: center;
   transform: translatex(-405px); }
 
-main div {
-  margin-bottom: 2rem; }
-  main div article div div {
-    width: auto;
-    height: 20vh;
-    background-color: rgba(0, 0, 0, 0.4);
-    text-align: center; }
-    main div article div div h2 {
-      color: white;
-      font-size: 1.6rem;
-      padding: 0.3rem; }
-    main div article div div p {
-      color: black;
-      font-size: 1.3rem;
-      font-weight: 600; }
-
 main h1 {
   font-size: 1.8rem;
   color: #b1afaf; }
@@ -199,14 +201,14 @@ main article {
   justify-content: center;
   align-items: center;
   align-content: center; }
-  main article p {
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 1rem;
-    margin: 0 1rem; }
 
 .p-dos {
   padding: 2rem; }
+
+.p-serv {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem; }
 
 .serv-flex {
   display: flex;
@@ -252,49 +254,6 @@ form button {
 .contacto-size {
   font-size: 1.3rem; }
 
-.error-container > span:nth-of-type(1) {
-  color: #D1F2A5;
-  animation: colordancing 4s infinite; }
-
-.error-container > span:nth-of-type(3) {
-  color: #F56991;
-  animation: colordancing2 4s infinite; }
-
-.error-container > span:nth-of-type(2) {
-  width: 120px;
-  height: 120px;
-  border-radius: 999px; }
-
-.error-container > span:nth-of-type(2):before,
-.error-container > span:nth-of-type(2):after {
-  border-radius: 0%;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: inherit;
-  height: inherit;
-  border-radius: 999px;
-  box-shadow: inset 30px 0 0 rgba(209, 242, 165, 0.4), inset 0 30px 0 rgba(239, 250, 180, 0.4), inset -30px 0 0 rgba(255, 196, 140, 0.4), inset 0 -30px 0 rgba(245, 105, 145, 0.4);
-  animation: shadowsdancing 4s infinite; }
-
-.error-container > span:nth-of-type(2):before {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  transform: rotate(45deg); }
-
-@keyframes colordancing {
-  0% {
-    color: #D1F2A5; }
-  25% {
-    color: #F56991; }
-  50% {
-    color: #FFC48C; }
-  75% {
-    color: #EFFAB4; }
-  100% {
-    color: #D1F2A5; } }
-
 footer {
   padding: 1rem;
   font-family: "Raleway", sans-serif;
@@ -333,7 +292,9 @@ footer {
 .bg-footer {
   background-color: #fff; }
 
-@media only screen and (min-width: 370px) {
+@media only screen and (min-width: 375px) {
+  header, nav {
+    background-color: #b1afaf; }
   .icon-nav {
     font-size: 1.5rem; }
   .m-index {
@@ -353,7 +314,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .icon-nav {
-    font-size: 1.7rem; }
+    font-size: 1.8rem; }
   .m-index {
     margin-top: 12rem;
     margin-bottom: 5rem; }
@@ -362,17 +323,19 @@ footer {
     justify-content: space-between;
     align-items: center;
     width: 100%; }
+  .art-artist {
+    margin-top: 4.3rem; }
   .img-artist {
     width: 100%;
     margin-left: 4rem;
     padding-bottom: 1rem;
-    margin-top: 10rem; }
+    margin-top: 5rem; }
   .span-artist {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.3; }
   .aside-artist {
-    width: 100%;
+    width: 70%;
     padding: 1rem;
     margin-right: 4rem;
     margin-top: 10rem; }
@@ -386,9 +349,27 @@ footer {
     margin-top: 1rem;
     text-align: center;
     font-weight: 600;
-    height: 3vh; } }
+    height: 3vh; }
+  .txt-foto {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    font-weight: 400; } }
+
+@media only screen and (max-width: 990px) {
+  header, nav {
+    background-color: #b1afaf; }
+  header nav div ul {
+    margin: 0;
+    width: 100%;
+    background-color: #b1afaf;
+    position: fixed;
+    left: 0;
+    text-align: center; } }
 
 @media only screen and (min-width: 1280px) {
+  header, nav {
+    background-color: rgba(180, 184, 178, 0.5); }
   .icon-nav {
     font-size: 1.8rem; }
   .m-index {
@@ -396,12 +377,12 @@ footer {
     margin-bottom: 0; }
   .img-artist {
     width: 100%;
-    margin-top: 13rem;
+    margin-top: 8rem;
     padding-bottom: 1rem; }
   .span-artist {
     font-size: 1.8rem; }
   .aside-artist {
-    width: 100%;
+    width: 60%;
     margin-right: 5rem;
     margin-top: 13rem; }
   .title-artist {
@@ -416,12 +397,14 @@ footer {
 @media only screen and (min-width: 1500px) {
   .icon-nav {
     font-size: 2rem; }
+  .art-artist {
+    margin-left: 5rem; }
   .img-artist {
     width: 100%;
-    margin-top: 15rem;
+    margin-top: 10rem;
     padding-bottom: 1rem; }
   .aside-artist {
-    width: 80%;
+    width: 60%;
     height: auto;
     text-align: center;
     margin-right: 5rem;
@@ -436,4 +419,9 @@ footer {
     line-height: 2;
     font-weight: 400;
     padding-top: 3rem;
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  .txt-foto {
+    color: white;
+    font-size: 1.7rem;
+    padding: 0.3rem;
+    font-weight: 400; } }

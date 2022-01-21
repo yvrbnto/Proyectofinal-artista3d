@@ -1,4 +1,9 @@
-@media only screen and (min-width: 370px){
+@media only screen and (min-width: 375px){
+
+    header, nav{
+        background-color: $grey;
+    }
+
     .icon-nav{
         font-size: $fs-cinco;
     }
@@ -30,7 +35,7 @@
 
 @media only screen and (min-width: 768px){
     .icon-nav{
-        font-size: $fs-siete;
+        font-size: $fs-ocho;
     }
 
     .m-index{
@@ -45,11 +50,15 @@
         width: 100%;
     }
 
+    .art-artist{
+        margin-top: 4.3rem;
+    }
+
     .img-artist{
         width: 100%;
         margin-left: 4rem;
         padding-bottom: 1rem;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 
     .span-artist{
@@ -59,7 +68,7 @@
     }
 
     .aside-artist{
-        width: 100%;
+        width: 70%;
         padding: $p-1;
         margin-right: 4rem;
         margin-top: 10rem;
@@ -89,7 +98,26 @@
 
 }
 
+@media only screen and (max-width: 990px){
+    header, nav{
+        background-color: $grey;
+    }
+
+    header nav div ul{
+        margin: 0;
+        width: 100%;
+        background-color: $grey;
+        position: fixed;
+        left: 0;
+        text-align: center;
+    }
+}
+
 @media only screen and (min-width: 1280px){
+
+    header, nav{
+        background-color: rgba(180, 184, 178, 0.5);
+    }
     .icon-nav{
         font-size: $fs-ocho;
     }
@@ -101,7 +129,7 @@
 
     .img-artist{
         width: 100%;
-        margin-top: 13rem;
+        margin-top: 8rem;
         padding-bottom: $p-1;
     }
 
@@ -110,7 +138,7 @@
     }
     
     .aside-artist{
-        width: 100%;
+        width: 60%;
         margin-right: 5rem;
         margin-top: 13rem;
     }
@@ -133,14 +161,18 @@
         font-size: $fs-dos;
     }
     
+    .art-artist{
+        margin-left: 5rem;
+    } 
+
     .img-artist{
         width: 100%;
-        margin-top: 15rem;
+        margin-top: 10rem;
         padding-bottom: $p-1;
     }
 
     .aside-artist{
-        width: 80%;
+        width: 60%;
         height: auto;
         text-align: center;
         margin-right: 5rem;

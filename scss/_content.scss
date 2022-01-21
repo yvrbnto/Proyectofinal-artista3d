@@ -39,15 +39,6 @@
 }
 
 //sobre el artista
-
-.m-cinco{
-    margin: 5rem;
-}
-
-.mtop-artist{
-    margin-top: 5rem;
-}
-
 main{
     font-family: $main-font;
     div{
@@ -67,10 +58,17 @@ main{
         }
     }
 }
-
 @keyframes artMoov-div{
     from{left: -500px;}
     to{left: 0px;}
+}
+
+.m-cinco{
+    margin: 5rem;
+}
+
+.mtop-artist{
+    margin-top: 5rem;
 }
 
 .body-artist{
@@ -106,6 +104,7 @@ main{
 
 .art-artist{
     text-align: center;
+
 }
 
 .title-artist{
@@ -135,26 +134,6 @@ main{
 }
 
 //portfolio
-.mtop-portfolio{
-    margin-top: 5rem;
-}
-
-.bg-nav{
-    background-color: $grey;
-}
-
-.art-flex{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.title-tr{
-    color: $grey;
-    font-size: $fs-ocho;
-    text-align: center;
-    transform: translatex(-405px);
-}
 
 main{
     div{
@@ -182,6 +161,31 @@ main{
     }
 }
 
+.body-over{
+    overflow-x: hidden;
+}
+
+.mtop-portfolio{
+    margin-top: 5rem;
+}
+
+.bg-nav{
+    background-color: $grey;
+}
+
+.art-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-tr{
+    color: $grey;
+    font-size: $fs-ocho;
+    text-align: center;
+    transform: translatex(-405px);
+}
+
 //servicios
 
 main{
@@ -196,17 +200,17 @@ main{
         justify-content: center;
         align-items: center;
         align-content: center;
-        p{
-            text-align: center;
-            font-size: $fs-cinco;
-            padding: $p-1;
-            margin: 0 1rem;
-        }
     }
 }
 
 .p-dos{
     padding: $p-2;
+}
+
+.p-serv{
+    text-align: center;
+    font-size: $fs-cinco;
+    padding: $p-1;
 }
 
 .serv-flex{
@@ -268,56 +272,4 @@ form{
 
 .contacto-size{
     font-size: $fs-tres;
-}
-
-//pagina 404
-.error-container > span:nth-of-type(1) {
-	color: #D1F2A5;
-	animation: colordancing 4s infinite;
-}
-.error-container > span:nth-of-type(3) {
-	color: #F56991;
-	animation: colordancing2 4s infinite;
-}
-.error-container > span:nth-of-type(2) {
-	width: 120px;
-	height: 120px;
-	border-radius: 999px;
-}
-.error-container > span:nth-of-type(2):before,
-.error-container > span:nth-of-type(2):after {
-	border-radius: 0%;
-	content:"";
-	position: absolute;
-	top: 0; left: 0;
-	width: inherit; height: inherit;
-	border-radius: 999px;
-	box-shadow: inset 30px 0 0 rgba(209, 242, 165, 0.4),
-		inset 0 30px 0 rgba(239, 250, 180, 0.4),
-		inset -30px 0 0 rgba(255, 196, 140, 0.4),	
-		inset 0 -30px 0 rgba(245, 105, 145, 0.4);
-	animation: shadowsdancing 4s infinite;
-}
-.error-container > span:nth-of-type(2):before {
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-@keyframes colordancing {
-	0% {
-		color: #D1F2A5;
-	}
-	25% {
-		color: #F56991;
-	}
-	50% {
-		color: #FFC48C;
-	}
-	75% {
-		color: #EFFAB4;
-	}
-	100% {
-		color: #D1F2A5;
-	}
 }
