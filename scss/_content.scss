@@ -14,8 +14,7 @@
 
 .txt-foto{
     color: $white;
-    font-size: $fs-cinco;
-    padding: 0.3rem;
+    font-size: $fs-tres;
     font-weight: $fw-400;
 }
 
@@ -58,6 +57,7 @@ main{
         }
     }
 }
+
 @keyframes artMoov-div{
     from{left: -500px;}
     to{left: 0px;}
@@ -67,9 +67,7 @@ main{
     margin: 5rem;
 }
 
-.mtop-artist{
-    margin-top: 5rem;
-}
+
 
 .body-artist{
     position: relative;
@@ -94,12 +92,11 @@ main{
 }
 
 .span-artist{
-    margin-right: 3rem;
     font-size: $fs-siete;
     font-weight: $fw-400;
     line-height: 2rem;
     padding: $p-2;
-    margin-left: 6rem;
+    margin-left: 5rem;
 }
 
 .art-artist{
