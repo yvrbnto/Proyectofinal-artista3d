@@ -292,7 +292,7 @@ footer {
   justify-content: center;
   flex-direction: row; }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 350px) {
   header, nav {
     background-color: #b1afaf; }
   .icon-nav {
